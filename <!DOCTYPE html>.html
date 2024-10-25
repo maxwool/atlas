@@ -1,19 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>My page title</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
-rel="stylesheet" type="text/css">
-<!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of
-Internet Explorer-->
-<!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-<![endif]-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+  <!-- Fix for HTML5 semantic elements in older IE versions -->
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <style>
+    body {
+      font-family: 'Open Sans Condensed', sans-serif;
+      margin: 20px;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header{
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-family: 'Sonsie One', cursive;
+    }
+    main {
+      margin: 20px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, p {
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+  </style>
 </head>
-<!-- I included the body element below which is not part of the html version or the head to make
-make sure you include it above your HTML code -->
 <body>
-Your HTML code goes here
+
+  <header>
+    <h1>Max Wool Web Page</h1>
+  </header>
+
+  <main>
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada cursus justo. Suspendisse vitae mi quis nunc molestie rhoncus. Suspendisse venenatis sapien eu diam mattis mattis. Nullam erat enim, laoreet varius scelerisque dapibus, dignissim et est. Suspendisse vel justo at justo interdum vestibulum ac id orci. Donec mollis turpis orci.</p>
+
+    <h2>My Background</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada cursus justo. Suspendisse vitae mi quis nunc molestie rhoncus. Suspendisse venenatis sapien eu diam mattis mattis. Nullam erat enim, laoreet varius scelerisque dapibus, dignissim et est. Suspendisse vel justo at justo interdum vestibulum ac id orci. Donec mollis turpis orci.</p>
+  </main>
+
 </body>
 </html>
